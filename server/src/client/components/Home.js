@@ -1,10 +1,11 @@
 import React from 'react';
+import Table from './Table/Table';
 
 const Home = () => {
     return (
         <div>
             <div>I am at home</div>
-            <button onClick={() => alert('button clicked!')}>Press me!</button>
+            <Table />
         </div>
     );
 };
