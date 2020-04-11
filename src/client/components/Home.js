@@ -4,7 +4,7 @@ import Table from './Table/Table';
 const Home = () => {
     return (
         <div>
-            <div>I am at home test for heroku with jenkins second time</div>
+            <div>I am at home test for heroku with jenkins build</div>
             <Table />
         </div>
     );
