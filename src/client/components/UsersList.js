@@ -26,7 +26,6 @@ class UsersList extends Component {
 function mapStateToProps(state) {
     return { 
         users: state.users
-        // hits: state.hits
     }
 }
 

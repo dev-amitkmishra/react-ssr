@@ -17,7 +17,9 @@ export default (req, store) => {
 
     return `
         <html>
-            <head></head>
+            <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+            </head>
             <body>
                 <div id="root">${ content }</div>
                 <script src="bundle.client.js"></script>
