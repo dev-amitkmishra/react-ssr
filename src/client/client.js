@@ -1,4 +1,3 @@
-//starting point for clien side app
 import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';

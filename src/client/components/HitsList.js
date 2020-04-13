@@ -40,7 +40,7 @@ class HitsList extends Component {
                 <tr key={author + '_' + points} style={{fontSize: '10px', backgroundColor: index % 2 == 0 ? '#e6e6df' : '#f6f6ef'}}>
                     <td style={{padding: '10px'}}>{points}</td>
                     <td style={{paddingRight: '0px'}}>{num_comments}</td>
-                    <td style={{cursor: 'pointer'}} onClick={() => this.updateVotes(created_at_i)}><i style={{fontSize: '20px', paddingTop: '10px'}} class="fa fa-sort-asc" aria-hidden="true"></i></td>
+                    <td style={{cursor: 'pointer'}} onClick={() => this.updateVotes(created_at_i)}><i style={{fontSize: '20px', paddingTop: '10px'}} className="fa fa-sort-asc" aria-hidden="true"></i></td>
                     <td style={{paddingLeft: '10px'}}>
                         <span style={{fontSize: '14px'}}>{title}</span>
                         <span style={{color: '#828282', padding: '0 4px 0 4px'}}>
@@ -64,7 +64,7 @@ class HitsList extends Component {
         return (
             <div style={{margin: '50px'}}>
                 <div style={{backgroundColor: '#ff6600', padding: '6px'}}>
-                    <span style={{fontSize: '10px'}}><i class="fa fa-jpy" aria-hidden="true"></i></span>
+                    <span style={{fontSize: '10px'}}><i style={{fontSize: '14px'}} className="fa fa-jpy" aria-hidden="true"></i></span>
                     <span style={{fontSize: '14px', color: '#fff', paddingLeft: '30px'}}>top</span>
                     <span style={{borderRight: '1px solid black', height: '30px', paddingLeft: '10px'}}></span>
                     <span style={{fontSize: '14px', paddingLeft: '10px'}}>new</span>
