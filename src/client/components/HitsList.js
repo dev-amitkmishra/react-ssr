@@ -44,7 +44,7 @@ class HitsList extends Component {
                     <td style={{paddingLeft: '10px'}}>
                         <span style={{fontSize: '14px'}}>{title}</span>
                         <span style={{color: '#828282', padding: '0 4px 0 4px'}}>
-                            ({url.substring(0, this.nthIndex(url, '/', 3)) || 'http://abc.com'}) by
+                            ({url && url.substring(0, this.nthIndex(url, '/', 3)) || 'http://abc.com'}) by
                         </span>
                         <span style={{color: 'black'}}>
                             {author} 
